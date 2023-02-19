@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(/assets/VarelaRound-Regular.ttf);
+}
+
+.contact_me_dialog{
+    font-family: 'myFont';
+    font-size: 30px;
+}

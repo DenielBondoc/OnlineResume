@@ -1,0 +1,87 @@
+<body>
+    <button routerLink="" class="back_button"><i class="bi bi-backspace"></i>Back</button>
+    <div class="profile">
+        <img src="/assets/me.jpg" alt="">
+        <div class="name">
+            <a >{{ aboutMe.fname }} {{ aboutMe.lname }}</a>
+        </div>
+        <div class="course">
+            <a>{{ aboutMe.course }} </a>
+        </div>
+        <div class="job">
+            <a>{{ aboutMe.job }}</a>
+        </div>
+
+        <ul class="wrapper">
+            <li class="icon facebook">
+                <span class="tooltip">Facebook</span>
+                <span><i class="bi bi-facebook"></i></span>
+            </li>
+            <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <span><i class="bi bi-twitter"></i></span>
+            </li>
+            <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <span><i class="bi bi-instagram"></i></span>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        <div>
+            <article class="carding">
+                <div class="temporary_text">
+                    <img class="image" src="https://www.hau.edu.ph/images/banner-4.jpg" alt="">
+                </div>
+                <div class="carding_content">
+                    <span class="carding_title">Holy Angel University</span>
+                    <span class="carding_subtitle">My College School since first year.</span>
+                    <p class="carding_description">I'm a computer engineering student in Holy Angel University, we studied Front-end and little bit of Back-end, I'm currently a 4th year student now and in 2nd semester.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="hobby">
+        <h2>Hobby</h2>
+        <hr>
+        <mat-grid-list class="list_blur" cols="2" rowHeight="9:2">
+            <mat-grid-tile style="font-size: 18px;" class="tile">Animation</mat-grid-tile>
+            <mat-grid-tile style="font-size: 18px;" class="tile">3D Modeling(Beginner)</mat-grid-tile>
+            <mat-grid-tile style="font-size: 18px;" class="tile">Gaming</mat-grid-tile>
+            <mat-grid-tile style="font-size: 18px;" class="tile">Coding</mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    <button mat-raised-button color="primary" class="button_cv">Download CV</button>
+    <button (click)="openDialog()"  mat-raised-button color="primary" class="contact_me">Contact me</button>
+    <button class="continue-application" routerLink="/projects">
+        <div>
+            <div class="pencil"></div>
+            <div class="folder">
+                <div class="top">
+                    <svg viewBox="0 0 24 27">
+                        <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.47wQbNPTDJp9hMYdvogK2hAUiHsGeiybwaWe36bwtRQ3UTpYV7YuZ8FV5j9nauFCWwcjM6dTzpL5s2N79Rp5unwdMvc8ZKU19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                    </svg>
+                </div>
+                <div class="paper"></div>
+            </div>
+        </div>
+        Projects
+    </button>
+    <div class="tech_stack">
+        <div>
+            <p class="content">I spent my 8 months learning the technologies that are listed here. <br> I still don't consider myself as a self-taught developer but I'm going on that path. <br> Feel free to check my projects.</p>
+        </div>
+        <div class="icons">
+            <div class="icons_one">
+                <img src="/assets/html5480.png" alt="">
+                <img src="/assets/css.png" alt="">
+                <img src="/assets/js.png" alt="">
+            </div>
+            <div class="icons_two">
+                <img src="/assets/docker.png" alt="">
+                <img src="/assets/Angular.png" alt="">
+                <img src="/assets/php.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>

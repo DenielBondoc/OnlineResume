@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(/assets/VarelaRound-Regular.ttf);
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(/assets/bg.jpg);
+    overflow-y:scroll;
+    font-family: 'myFont';
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_proj{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.first_proj h1{
+    text-align: center;
+    font-family: 'myFont';
+}
+
+.video_proj{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.video_proj span img{
+    width: 30px;
+    height: 30px;
+}
+
+.video_proj video{
+    border-radius: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.infor_proj{
+    margin-left: 50px;
+    align-self: center;
+}
+.back_button{
+    background-color: rgb(63,81,181);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    border-style: none;
+    margin: 10px;
+    font-family: 'myFont';
+  }
+  
+  .first_proj_info{
+    margin-top: 30px;
+  }
+
+  .docker_image img{
+    width: 550px;
+
+  }
+
+
+
+  .second_proj2{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.second_proj2 h1{
+    text-align: center;
+    font-family: 'myFont';
+}
+
+.video_proj2{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.video_proj2 span img{
+    width: 30px;
+    height: 30px;
+}
+
+.video_proj2 video{
+    border-radius: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.infor_proj2{
+    margin-right: 50px;
+    align-self: center;
+}
